@@ -8,23 +8,10 @@ Veri İşleme: Toplanan yorumlar temizlenir ve NLP yöntemleriyle analize hazır
 Duygu Analizi: Yorumlar, Transformer tabanlı bir model (DistilBERT) kullanılarak pozitif ya da negatif olarak sınıflandırılır.
 Veri Depolama: Çekilen veriler data/ klasöründe saklanır ve işlenir.
 
-
-GitHub README dosyanız, projenizin ne yaptığını, nasıl çalıştırıldığını ve gerekli detayları içermelidir. İşte size proje odaklı bir README taslağı:
-
-IMDb Duygu Analizi ve Web Scraper
-Bu proje, IMDb web sitesinden film yorumlarını toplamak için bir web scraper ve bu yorumlar üzerinde DistilBERT tabanlı duygu analizi modeli kullanarak, yorumların pozitif veya negatif olduğunu sınıflandırır.
-
-Özellikler
-Web Scraper: IMDb'den film yorumlarını toplamak için geliştirilmiştir (PyCharm ile oluşturulmuştur).
-Veri İşleme: Toplanan yorumlar temizlenir ve NLP yöntemleriyle analize hazırlanır.
-Duygu Analizi: Yorumlar, Transformer tabanlı bir model (DistilBERT) kullanılarak pozitif ya da negatif olarak sınıflandırılır.
-Veri Depolama: Çekilen veriler data/ klasöründe saklanır ve işlenir.
-
 Kullanım
 1. IMDb Yorumlarını Çekmek için Scraper'ı Çalıştırın
-Scraper PyCharm ile geliştirilmiştir. scraper/ klasöründeki Python dosyasını çalıştırarak verileri çekebilirsiniz.
+Scraper PyCharm ile geliştirilmiştir. Klasöründeki Python dosyasını çalıştırarak verileri çekebilirsiniz.
 Çekilen veriler data/ klasörüne .csv formatında kaydedilir.
-
 
 Kurulum
 Gerekli kütüphaneleri yükleyin:
